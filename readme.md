@@ -1,5 +1,6 @@
 
 安装 PHP_CodeSniffer
+
 pear install PHP_CodeSniffer
 
 1, phpcs --standard=PSR2 --report=csv --report-file=phpcs.csv --tab-width=4 --encoding=utf-8 --extensions=inc,php app/*
