@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <document>
+        <!-- 默认模块 -->
+        <module>
+            <!-- 模块的名字 -->
+            <name>index</name>
+            <!-- 模块的代码 -->
+            <code>001</code>
+            <!-- 模块包含的控制器,多个 -->
+            <controller>
+                <!-- 控制的的名字 -->
+                <name>IndexController</name>
+                <!-- 控制器的代码 -->
+                <code>001</code>
+                <!-- 控制器中包含的请求地址，多个 -->
+                <action>
+                    <name>index</name>
+                    <code>001</code>
+                    <desc>用户中心首页</desc>
+                </action>
+            </controller>
+        </module>
+    </document>

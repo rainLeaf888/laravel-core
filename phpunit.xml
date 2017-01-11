@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         bootstrap="bootstrap/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false">
+    <testsuites>
+        <testsuite name="coupon">
+            <directory>./modules/Marketing/Tests/Coupon</directory>
+        </testsuite>
+        <testsuite name="analysis">
+            <directory>./modules/Marketing/Tests/Analysis</directory>
+        </testsuite>
+        <testsuite name="normal">
+            <directory>./modules/Marketing/Tests/Normal</directory>
+        </testsuite>
+        <testsuite name="group">
+            <directory>./modules/Marketing/Tests/Group</directory>
+        </testsuite>
+        <testsuite name="active">
+            <directory>./modules/Marketing/Tests/Active</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">app/</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="APP_ENV" value="testing"/>
+        <env name="CACHE_DRIVER" value="array"/>
+        <env name="SESSION_DRIVER" value="array"/>
+        <env name="QUEUE_DRIVER" value="sync"/>
+    </php>
+</phpunit>
