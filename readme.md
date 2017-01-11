@@ -1,5 +1,5 @@
 
-安装 PHP_CodeSniffer
+安装 PHP_CodeSniffer 模块
 
 pear install PHP_CodeSniffer
 
