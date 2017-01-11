@@ -1,2 +1,2 @@
 <?php
-die('crm4.0');
+die('crm4.3');
